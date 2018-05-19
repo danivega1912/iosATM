@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D51E1DD637DFD42F80C95E7 /* Pods_iosATM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4E646C44264C7EE1C92F86 /* Pods_iosATM.framework */; };
 		656AF97B20AE42700062CA42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656AF97A20AE42700062CA42 /* AppDelegate.swift */; };
-		656AF97D20AE42700062CA42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656AF97C20AE42700062CA42 /* ViewController.swift */; };
 		656AF98020AE42700062CA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656AF97E20AE42700062CA42 /* Main.storyboard */; };
 		656AF98220AE42710062CA42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656AF98120AE42710062CA42 /* Assets.xcassets */; };
 		656AF98520AE42710062CA42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656AF98320AE42710062CA42 /* LaunchScreen.storyboard */; };
+		65F5FCE420AE43FC00DE9249 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5FCE320AE43FC00DE9249 /* MainViewController.swift */; };
+		65F5FCE720AE48F900DE9249 /* Atm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5FCE620AE48F900DE9249 /* Atm.swift */; };
+		65F5FCE920AE4AB900DE9249 /* HTTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5FCE820AE4AB900DE9249 /* HTTPHelper.swift */; };
+		65F5FCEB20AE4D5800DE9249 /* AtmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5FCEA20AE4D5800DE9249 /* AtmList.swift */; };
+		65F5FCF520AF7D0C00DE9249 /* CustomPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5FCF420AF7D0C00DE9249 /* CustomPinAnnotation.swift */; };
+		65F5FCFF20B0942400DE9249 /* AtmDeailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5FCFE20B0942400DE9249 /* AtmDeailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AF0B8A55B6C212AEFD782FE /* Pods-iosATM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosATM.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosATM/Pods-iosATM.release.xcconfig"; sourceTree = "<group>"; };
 		656AF97720AE42700062CA42 /* iosATM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosATM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656AF97A20AE42700062CA42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		656AF97C20AE42700062CA42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		656AF97F20AE42700062CA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		656AF98120AE42710062CA42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		656AF98420AE42710062CA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		656AF98620AE42710062CA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F5FCE320AE43FC00DE9249 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		65F5FCE620AE48F900DE9249 /* Atm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atm.swift; sourceTree = "<group>"; };
+		65F5FCE820AE4AB900DE9249 /* HTTPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHelper.swift; sourceTree = "<group>"; };
+		65F5FCEA20AE4D5800DE9249 /* AtmList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmList.swift; sourceTree = "<group>"; };
+		65F5FCF420AF7D0C00DE9249 /* CustomPinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPinAnnotation.swift; sourceTree = "<group>"; };
+		65F5FCFE20B0942400DE9249 /* AtmDeailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmDeailViewController.swift; sourceTree = "<group>"; };
+		6E4E646C44264C7EE1C92F86 /* Pods_iosATM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosATM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAE1A1F903BE11C88068231 /* Pods-iosATM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosATM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosATM/Pods-iosATM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D51E1DD637DFD42F80C95E7 /* Pods_iosATM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47F48BC9F85C2CB1BC2E0DAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BAE1A1F903BE11C88068231 /* Pods-iosATM.debug.xcconfig */,
+				3AF0B8A55B6C212AEFD782FE /* Pods-iosATM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		656AF96E20AE42700062CA42 = {
 			isa = PBXGroup;
 			children = (
 				656AF97920AE42700062CA42 /* iosATM */,
 				656AF97820AE42700062CA42 /* Products */,
+				47F48BC9F85C2CB1BC2E0DAC /* Pods */,
+				6E669897606E911F06BC074C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +80,51 @@
 		656AF97920AE42700062CA42 /* iosATM */ = {
 			isa = PBXGroup;
 			children = (
+				65F5FCE520AE485500DE9249 /* API */,
+				65F5FCE220AE43D300DE9249 /* Controller */,
+				65F5FCE120AE43CC00DE9249 /* Model */,
 				656AF97A20AE42700062CA42 /* AppDelegate.swift */,
-				656AF97C20AE42700062CA42 /* ViewController.swift */,
 				656AF97E20AE42700062CA42 /* Main.storyboard */,
 				656AF98120AE42710062CA42 /* Assets.xcassets */,
 				656AF98320AE42710062CA42 /* LaunchScreen.storyboard */,
 				656AF98620AE42710062CA42 /* Info.plist */,
 			);
 			path = iosATM;
+			sourceTree = "<group>";
+		};
+		65F5FCE120AE43CC00DE9249 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65F5FCE620AE48F900DE9249 /* Atm.swift */,
+				65F5FCEA20AE4D5800DE9249 /* AtmList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65F5FCE220AE43D300DE9249 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65F5FCE320AE43FC00DE9249 /* MainViewController.swift */,
+				65F5FCF420AF7D0C00DE9249 /* CustomPinAnnotation.swift */,
+				65F5FCFE20B0942400DE9249 /* AtmDeailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		65F5FCE520AE485500DE9249 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				65F5FCE820AE4AB900DE9249 /* HTTPHelper.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6E669897606E911F06BC074C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E4E646C44264C7EE1C92F86 /* Pods_iosATM.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 656AF98920AE42710062CA42 /* Build configuration list for PBXNativeTarget "iosATM" */;
 			buildPhases = (
+				4B969D8316A47937F7A2B59D /* [CP] Check Pods Manifest.lock */,
 				656AF97320AE42700062CA42 /* Sources */,
 				656AF97420AE42700062CA42 /* Frameworks */,
 				656AF97520AE42700062CA42 /* Resources */,
+				A3AA8143BFE92EE999C49E17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +195,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B969D8316A47937F7A2B59D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iosATM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3AA8143BFE92EE999C49E17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iosATM/Pods-iosATM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftLocation/SwiftLocation.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftLocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosATM/Pods-iosATM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		656AF97320AE42700062CA42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				656AF97D20AE42700062CA42 /* ViewController.swift in Sources */,
+				65F5FCFF20B0942400DE9249 /* AtmDeailViewController.swift in Sources */,
+				65F5FCF520AF7D0C00DE9249 /* CustomPinAnnotation.swift in Sources */,
 				656AF97B20AE42700062CA42 /* AppDelegate.swift in Sources */,
+				65F5FCEB20AE4D5800DE9249 /* AtmList.swift in Sources */,
+				65F5FCE420AE43FC00DE9249 /* MainViewController.swift in Sources */,
+				65F5FCE720AE48F900DE9249 /* Atm.swift in Sources */,
+				65F5FCE920AE4AB900DE9249 /* HTTPHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +391,11 @@
 		};
 		656AF98A20AE42710062CA42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BAE1A1F903BE11C88068231 /* Pods-iosATM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L58492B9SV;
 				INFOPLIST_FILE = iosATM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,9 +410,11 @@
 		};
 		656AF98B20AE42710062CA42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF0B8A55B6C212AEFD782FE /* Pods-iosATM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L58492B9SV;
 				INFOPLIST_FILE = iosATM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
