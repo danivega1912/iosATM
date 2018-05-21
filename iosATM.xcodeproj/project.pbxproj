@@ -12,6 +12,7 @@
 		656AF98020AE42700062CA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656AF97E20AE42700062CA42 /* Main.storyboard */; };
 		656AF98220AE42710062CA42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656AF98120AE42710062CA42 /* Assets.xcassets */; };
 		656AF98520AE42710062CA42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656AF98320AE42710062CA42 /* LaunchScreen.storyboard */; };
+		6578B4CB20B2486000920509 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6578B4CA20B2486000920509 /* ActivityIndicator.swift */; };
 		65F5FCE420AE43FC00DE9249 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5FCE320AE43FC00DE9249 /* MainViewController.swift */; };
 		65F5FCE720AE48F900DE9249 /* Atm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5FCE620AE48F900DE9249 /* Atm.swift */; };
 		65F5FCE920AE4AB900DE9249 /* HTTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5FCE820AE4AB900DE9249 /* HTTPHelper.swift */; };
@@ -28,6 +29,7 @@
 		656AF98120AE42710062CA42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		656AF98420AE42710062CA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		656AF98620AE42710062CA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6578B4CA20B2486000920509 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		65F5FCE320AE43FC00DE9249 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		65F5FCE620AE48F900DE9249 /* Atm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atm.swift; sourceTree = "<group>"; };
 		65F5FCE820AE4AB900DE9249 /* HTTPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHelper.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				65F5FCE320AE43FC00DE9249 /* MainViewController.swift */,
 				65F5FCF420AF7D0C00DE9249 /* CustomPinAnnotation.swift */,
 				65F5FCFE20B0942400DE9249 /* AtmDeailViewController.swift */,
+				6578B4CA20B2486000920509 /* ActivityIndicator.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				65F5FCF520AF7D0C00DE9249 /* CustomPinAnnotation.swift in Sources */,
 				656AF97B20AE42700062CA42 /* AppDelegate.swift in Sources */,
 				65F5FCEB20AE4D5800DE9249 /* AtmList.swift in Sources */,
+				6578B4CB20B2486000920509 /* ActivityIndicator.swift in Sources */,
 				65F5FCE420AE43FC00DE9249 /* MainViewController.swift in Sources */,
 				65F5FCE720AE48F900DE9249 /* Atm.swift in Sources */,
 				65F5FCE920AE4AB900DE9249 /* HTTPHelper.swift in Sources */,

@@ -24,15 +24,24 @@ class MainViewController: UIViewController, CLLocationManagerDelegate, MKMapView
         Locator.currentPosition(accuracy: .room, onSuccess: {
             location in self.centerMapCurrentLocation(location: location); },
                                 onFail: { _,_ in print("failed to get the current location"); })
+        self.getAtmInformation()
+    }
+    
+    func getAtmInformation() {
+        //show activity indicator
+        let sv = UIViewController.displaySpinner(onView: self.view)
         //Get ATM location's list
         let dm = HTTPHelper()
         dm.getAtmList { (list, error) in
             if !error {
+                //remove activity indicator
+                UIViewController.removeSpinner(spinner: sv)
+                //show information on map
                 self.setAtmLocationsOnMap(atmList: list)
             }else{
                 //if we can get data => show message to user.
                 let alert = UIAlertController(title: "Can't reach server", message: "Please try again later", preferredStyle: UIAlertControllerStyle.alert)
-                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: {(alert: UIAlertAction!) in self.getAtmInformation()}))
                 self.present(alert, animated: true, completion: nil)
             }
         }
