@@ -39,7 +39,7 @@ class MainViewController: UIViewController, CLLocationManagerDelegate, MKMapView
                 //show information on map
                 self.setAtmLocationsOnMap(atmList: list)
             }else{
-                //if we can get data => show message to user.
+                //if we can't get data => show message to user.
                 let alert = UIAlertController(title: "Can't reach server", message: "Please try again later", preferredStyle: UIAlertControllerStyle.alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: {(alert: UIAlertAction!) in self.getAtmInformation()}))
                 self.present(alert, animated: true, completion: nil)
